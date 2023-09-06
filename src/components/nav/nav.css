@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar-menu {
+    background-color:#6495ED;
+    width: 10%;
+    height: 950px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.navbar-menu button {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+    height: 15%;
+    width: 80%;
+    background-color: transparent;
+    border: 0px solid #cccccc;
+    box-shadow: 10px;
+    padding-top: 20px;
+    border-bottom: 0.1rem solid #000000;
+}
+
+.navbar-menu button:hover {
+background-color: rgba(231, 217, 137, 0.233);
+border-radius: 92px;
+height: 15%;
+width: 350px;
+}
+
+
+h1 {
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(65, 96, 131);
+    padding-top: 20px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.div{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar-menu button img{
+height: 77px;
+}
+
+#logo{
+    height: 150%;
+    
+}
+
+#docente{
+    right: 20%;
+}
+
+#est{
+    display: flex;
+    background-color: aliceblue;
+}
